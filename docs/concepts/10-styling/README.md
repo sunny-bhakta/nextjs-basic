@@ -56,6 +56,23 @@ export default function Button() {
 3. Understand [CSS Modules](./css-modules.md)
 4. Explore [Global CSS](./global-css.md)
 
+## Detailed Guides
+
+- **[Tailwind CSS](./tailwind-css.md)** - Utility-first CSS framework
+- **[CSS Modules](./css-modules.md)** - Scoped CSS with modules
+- [Global CSS](./global-css.md) - Global stylesheets
+- [CSS-in-JS](./css-in-js.md) - Styled-components, Emotion, etc.
+- [Sass/SCSS](./sass.md) - CSS preprocessor support
+
+## Examples
+
+See the [examples](./examples/) folder for working code samples:
+
+- **[Tailwind CSS](./examples/01-tailwind-css.tsx)** - Tailwind CSS usage
+- **[CSS Modules](./examples/02-css-modules.tsx)** - CSS Modules usage
+
+See [examples/README.md](./examples/README.md) for detailed descriptions.
+
 ## Resources
 
 - [Styling Docs](https://nextjs.org/docs/app/building-your-application/styling)
