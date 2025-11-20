@@ -45,7 +45,18 @@ export default function About() {
 
 ## Examples
 
-See the [examples](./examples/) folder for working code samples.
+See the [examples](./examples/) folder for working code samples:
+
+- **[Basic Routing](./examples/01-basic-routing.tsx)** - File-based routing examples
+- **[Dynamic Routes](./examples/02-dynamic-routes.tsx)** - Dynamic route parameters
+- **[Catch-All Routes](./examples/03-catch-all-routes.tsx)** - Catch-all and optional catch-all
+- **[Navigation with Link](./examples/04-navigation-link.tsx)** - Using the Link component
+- **[Programmatic Navigation](./examples/05-navigation-userouter.tsx)** - Using useRouter hook
+- **[Route Groups](./examples/06-route-groups.tsx)** - Organizing routes with groups
+- **[Route Handlers](./examples/07-route-handlers.tsx)** - API route handlers
+- **[Complete Example](./examples/08-complete-example.tsx)** - Comprehensive routing example
+
+See [examples/README.md](./examples/README.md) for detailed descriptions and usage instructions.
 
 ---
 

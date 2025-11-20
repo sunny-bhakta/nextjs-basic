@@ -33,6 +33,20 @@ Next.js supports multiple rendering strategies: Server-Side Rendering (SSR), Sta
 4. Explore [Client-Side Rendering](./csr.md)
 5. Practice with [examples](./examples/)
 
+## Examples
+
+See the [examples](./examples/) folder for working code samples:
+
+- **[Static Site Generation](./examples/01-static-site-generation.tsx)** - Pre-rendered pages at build time
+- **[Server-Side Rendering](./examples/02-server-side-rendering.tsx)** - Pages rendered on each request
+- **[Incremental Static Regeneration](./examples/03-incremental-static-regeneration.tsx)** - Static pages with periodic updates
+- **[Client-Side Rendering](./examples/04-client-side-rendering.tsx)** - Rendering in the browser
+- **[Hybrid Rendering](./examples/05-hybrid-rendering.tsx)** - Combining different strategies
+- **[Pages Router Examples](./examples/06-pages-router-examples.tsx)** - Legacy router patterns
+- **[Complete Example](./examples/07-complete-example.tsx)** - Comprehensive rendering example
+
+See [examples/README.md](./examples/README.md) for detailed descriptions and usage instructions.
+
 ## Resources
 
 - [Next.js Rendering Docs](https://nextjs.org/docs/app/building-your-application/rendering)
