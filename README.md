@@ -30,8 +30,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project includes comprehensive documentation in the `docs/` directory:
 
+### Getting Started
 - **[Next.js Setup Guide](./docs/nextjs-setup.md)** - Step-by-step instructions for creating Next.js projects, including both CLI and manual setup methods.
-- **[Next.js Concepts](./docs/nextjs-concepts.md)** - A complete guide covering all major Next.js concepts and features, from basic routing to advanced topics.
+
+### Learning Resources
+- **[Next.js Concepts](./docs/nextjs-concepts.md)** - A complete guide covering all 40 major Next.js concepts and features, from basic routing to advanced topics. Includes priority levels and difficulty ratings.
+- **[Learning Plan](./docs/CONCEPTS_LEARNING_PLAN.md)** - Structured approach to learning all Next.js concepts with a phased implementation plan.
+- **[Progress Tracker](./docs/LEARNING_PROGRESS.md)** - Track your learning progress as you go through each concept.
+
+### Templates
+- **[Concept Guide Template](./docs/concepts/TEMPLATE.md)** - Template for creating detailed guides for each Next.js concept with examples, best practices, and exercises.
 
 ## Learn More
 
