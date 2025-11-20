@@ -2,11 +2,41 @@
 
 A comprehensive guide to all major Next.js concepts and features.
 
+> **📊 Progress Tracker**: See [LEARNING_PROGRESS.md](./LEARNING_PROGRESS.md) to track your learning progress  
+> **📚 Learning Plan**: See [CONCEPTS_LEARNING_PLAN.md](./CONCEPTS_LEARNING_PLAN.md) for a structured learning approach  
+> **📝 Template**: Use [concepts/TEMPLATE.md](./concepts/TEMPLATE.md) when creating detailed guides
+
+## Quick Navigation
+
+- [Core Concepts](#-core-concepts) (1-10)
+- [Intermediate Concepts](#-intermediate-concepts) (11-25)
+- [Advanced Concepts](#-advanced-concepts) (26-40)
+- [Learning Path](#-learning-path)
+- [Resources](#-key-resources)
+
+## How to Use This Guide
+
+1. **Review the concepts** below to understand what you need to learn
+2. **Track your progress** in [LEARNING_PROGRESS.md](./LEARNING_PROGRESS.md)
+3. **Follow the learning plan** in [CONCEPTS_LEARNING_PLAN.md](./CONCEPTS_LEARNING_PLAN.md)
+4. **Create detailed guides** using the [template](./concepts/TEMPLATE.md) as you learn each concept
+5. **Build projects** to practice and reinforce your learning
+
+**Status Legend:**
+- ⏳ Not Started
+- 📚 In Progress  
+- ✅ Completed
+- 🔄 Review Needed
+
 ---
 
 ## 🚀 Core Concepts
 
-### 1. **Pages & Routing**
+*These are the fundamental concepts you should learn first.*
+
+### 1. **Pages & Routing** ⏳
+**Priority**: 🔴 High | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#1-pages--routing) | [📚 Detailed Guide](./concepts/01-routing/README.md)
 - File-based routing system
 - Dynamic routes (`[id].js`, `[...slug].js`)
 - Nested routes and route groups
@@ -18,7 +48,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Shallow routing
 - Route handlers (API routes in `app` directory)
 
-### 2. **Rendering Strategies**
+### 2. **Rendering Strategies** ⏳
+**Priority**: 🔴 High | **Difficulty**: Beginner-Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#2-rendering-strategies) | [📚 Detailed Guide](./concepts/02-rendering/README.md)
 - **Server-Side Rendering (SSR)**
   - `getServerSideProps`
   - Server Components (App Router)
@@ -34,7 +66,9 @@ A comprehensive guide to all major Next.js concepts and features.
   - Mixing SSR, SSG, and CSR
   - Partial prerendering
 
-### 3. **App Router (Next.js 13+)**
+### 3. **App Router (Next.js 13+)** ⏳
+**Priority**: 🔴 High | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#3-app-router-nextjs-13) | [📚 Detailed Guide](./concepts/03-app-router/README.md)
 - `app/` directory structure
 - Layouts (`layout.tsx`)
 - Pages (`page.tsx`)
@@ -48,7 +82,10 @@ A comprehensive guide to all major Next.js concepts and features.
 - Streaming and Suspense
 - Route Handlers (API routes)
 
-### 4. **Pages Router (Legacy)**
+### 4. **Pages Router (Legacy)** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#4-pages-router-legacy)  
+*Note: Legacy router, learn for reference but use App Router for new projects*
 - `pages/` directory structure
 - `_app.js` (Custom App)
 - `_document.js` (Custom Document)
@@ -57,7 +94,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - `500.js` (Custom 500)
 - API routes (`pages/api/`)
 
-### 5. **Data Fetching**
+### 5. **Data Fetching** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#5-data-fetching)
 - `getStaticProps` (SSG)
 - `getStaticPaths` (Dynamic SSG)
 - `getServerSideProps` (SSR)
@@ -67,7 +106,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - React Query integration
 - Data fetching in Client Components
 
-### 6. **API Routes**
+### 6. **API Routes** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#6-api-routes)
 - API route handlers (`pages/api/` or `app/api/`)
 - HTTP methods (GET, POST, PUT, DELETE, etc.)
 - Request/Response handling
@@ -76,7 +117,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - API route middleware
 - Edge runtime for API routes
 
-### 7. **Image Optimization**
+### 7. **Image Optimization** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#7-image-optimization)
 - `next/image` component
 - Image optimization and lazy loading
 - Responsive images
@@ -86,7 +129,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Priority loading
 - Image sizing and layout
 
-### 8. **Font Optimization**
+### 8. **Font Optimization** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#8-font-optimization)
 - `next/font` (Font optimization)
 - Google Fonts integration
 - Local fonts
@@ -94,7 +139,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Variable fonts
 - Font preloading
 
-### 9. **Script Optimization**
+### 9. **Script Optimization** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#9-script-optimization)
 - `next/script` component
 - Script loading strategies
 - `beforeInteractive`
@@ -102,7 +149,19 @@ A comprehensive guide to all major Next.js concepts and features.
 - `lazyOnload`
 - Script optimization
 
-### 10. **Styling**
+### 10. **Styling** ⏳
+**Priority**: 🔴 High | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#10-styling)
+
+---
+
+## 📘 Intermediate Concepts
+
+*Build on core concepts with these intermediate topics.*
+
+### 11. **Metadata & SEO** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#11-metadata--seo)
 - CSS Modules
 - Global CSS
 - Sass/SCSS support
@@ -123,7 +182,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Robots.txt
 - Canonical URLs
 
-### 12. **Environment Variables**
+### 12. **Environment Variables** ⏳
+**Priority**: 🔴 High | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#12-environment-variables)
 - `.env.local`
 - `.env.development`
 - `.env.production`
@@ -132,7 +193,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - `NEXT_PUBLIC_` prefix
 - Environment variable validation
 
-### 13. **Middleware**
+### 13. **Middleware** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#13-middleware)
 - `middleware.ts` file
 - Request/Response manipulation
 - Redirects and rewrites
@@ -143,7 +206,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Cookie handling
 - Headers manipulation
 
-### 14. **Redirects & Rewrites**
+### 14. **Redirects & Rewrites** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#14-redirects--rewrites)
 - `next.config.js` redirects
 - `next.config.js` rewrites
 - Dynamic redirects
@@ -151,7 +216,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - URL rewriting
 - External redirects
 
-### 15. **Internationalization (i18n)**
+### 15. **Internationalization (i18n)** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#15-internationalization-i18n)
 - Locale detection
 - Locale routing
 - Default locale
@@ -160,7 +227,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Language switching
 - Locale-specific content
 
-### 16. **Authentication**
+### 16. **Authentication** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#16-authentication)
 - NextAuth.js integration
 - JWT authentication
 - Session management
@@ -170,7 +239,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Server-side auth checks
 - Client-side auth checks
 
-### 17. **State Management**
+### 17. **State Management** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#17-state-management)
 - React Context API
 - Redux integration
 - Zustand
@@ -181,7 +252,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Local state with `useState`
 - Server state vs Client state
 
-### 18. **Forms & User Input**
+### 18. **Forms & User Input** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#18-forms--user-input)
 - Form handling
 - Form validation
 - Server Actions (App Router)
@@ -190,7 +263,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Form libraries (React Hook Form, Formik)
 - Controlled vs Uncontrolled components
 
-### 19. **File Uploads**
+### 19. **File Uploads** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#19-file-uploads)
 - File upload handling
 - Multipart form data
 - File validation
@@ -198,7 +273,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Image upload optimization
 - Progress tracking
 
-### 20. **Database Integration**
+### 20. **Database Integration** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#20-database-integration)
 - Prisma ORM
 - TypeORM
 - Mongoose (MongoDB)
@@ -207,7 +284,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Server-side database queries
 - Database migrations
 
-### 21. **Caching**
+### 21. **Caching** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate-Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#21-caching)
 - Static page caching
 - ISR caching
 - API route caching
@@ -217,7 +296,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Cache tags
 - Time-based revalidation
 
-### 22. **Performance Optimization**
+### 22. **Performance Optimization** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate-Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#22-performance-optimization)
 - Code splitting
 - Automatic code splitting
 - Dynamic imports (`next/dynamic`)
@@ -227,7 +308,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Performance monitoring
 - Lighthouse optimization
 
-### 23. **TypeScript Support**
+### 23. **TypeScript Support** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#23-typescript-support)
 - TypeScript configuration
 - Type definitions
 - Type-safe API routes
@@ -235,7 +318,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Type inference
 - TypeScript strict mode
 
-### 24. **Testing**
+### 24. **Testing** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#24-testing)
 - Jest configuration
 - React Testing Library
 - Unit testing
@@ -245,7 +330,19 @@ A comprehensive guide to all major Next.js concepts and features.
 - Mocking API calls
 - Testing API routes
 
-### 25. **Deployment**
+### 25. **Deployment** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#25-deployment)
+
+---
+
+## 🚀 Advanced Concepts
+
+*Master these advanced topics to become a Next.js expert.*
+
+### 26. **Error Handling** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#26-error-handling)
 - Vercel deployment
 - Static export
 - Docker deployment
@@ -263,14 +360,18 @@ A comprehensive guide to all major Next.js concepts and features.
 - Custom error pages
 - Error logging
 
-### 27. **WebSockets & Real-time**
+### 27. **WebSockets & Real-time** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#27-websockets--real-time)
 - WebSocket integration
 - Socket.io
 - Server-Sent Events (SSE)
 - Real-time updates
 - WebSocket API routes
 
-### 28. **Analytics**
+### 28. **Analytics** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Beginner-Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#28-analytics)
 - Vercel Analytics
 - Google Analytics
 - Custom analytics
@@ -278,7 +379,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Performance monitoring
 - User behavior tracking
 
-### 29. **Security**
+### 29. **Security** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate-Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#29-security)
 - Content Security Policy (CSP)
 - XSS prevention
 - CSRF protection
@@ -287,7 +390,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - API route security
 - Authentication security
 
-### 30. **Advanced Features**
+### 30. **Advanced Features** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#30-advanced-features)
 - **Edge Functions**
   - Edge runtime
   - Edge API routes
@@ -307,7 +412,9 @@ A comprehensive guide to all major Next.js concepts and features.
   - Hybrid rendering
   - Dynamic islands
 
-### 31. **Configuration**
+### 31. **Configuration** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#31-configuration)
 - `next.config.js`
 - Webpack configuration
 - Babel configuration
@@ -316,14 +423,18 @@ A comprehensive guide to all major Next.js concepts and features.
 - Custom server setup
 - Custom build configuration
 
-### 32. **Plugins & Extensions**
+### 32. **Plugins & Extensions** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#32-plugins--extensions)
 - Next.js plugins
 - Webpack plugins
 - Babel plugins
 - Community plugins
 - Custom plugins
 
-### 33. **Debugging**
+### 33. **Debugging** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#33-debugging)
 - Development tools
 - Error overlay
 - Source maps
@@ -331,27 +442,35 @@ A comprehensive guide to all major Next.js concepts and features.
 - Console logging
 - Network debugging
 
-### 34. **Monorepo Support**
+### 34. **Monorepo Support** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#34-monorepo-support)
 - Workspaces
 - Turborepo integration
 - Shared packages
 - Multi-app setup
 
-### 35. **Progressive Web App (PWA)**
+### 35. **Progressive Web App (PWA)** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Intermediate-Advanced  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#35-progressive-web-app-pwa)
 - Service workers
 - Offline support
 - App manifest
 - Install prompts
 - Push notifications
 
-### 36. **Accessibility**
+### 36. **Accessibility** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#36-accessibility)
 - ARIA attributes
 - Semantic HTML
 - Keyboard navigation
 - Screen reader support
 - Focus management
 
-### 37. **Code Organization**
+### 37. **Code Organization** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Beginner-Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#37-code-organization)
 - Folder structure
 - Component organization
 - Utility functions
@@ -359,7 +478,9 @@ A comprehensive guide to all major Next.js concepts and features.
 - Feature-based structure
 - Barrel exports
 
-### 38. **API Integration**
+### 38. **API Integration** ⏳
+**Priority**: 🟡 Medium | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#38-api-integration)
 - REST APIs
 - GraphQL (Apollo, Relay)
 - tRPC
@@ -368,13 +489,17 @@ A comprehensive guide to all major Next.js concepts and features.
 - Request interceptors
 - Response interceptors
 
-### 39. **File System**
+### 39. **File System** ⏳
+**Priority**: 🟢 Low | **Difficulty**: Beginner  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#39-file-system)
 - Public folder (`public/`)
 - Static assets
 - File serving
 - Asset optimization
 
-### 40. **Build & Production**
+### 40. **Build & Production** ⏳
+**Priority**: 🔴 High | **Difficulty**: Intermediate  
+**Status**: ⏳ Not Started | [Track Progress](./LEARNING_PROGRESS.md#40-build--production)
 - Build process
 - Production optimizations
 - Bundle size optimization
