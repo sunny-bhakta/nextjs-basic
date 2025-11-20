@@ -31,6 +31,27 @@ Next.js provides multiple ways to fetch data: Server Components, Server Actions,
 3. Understand [Client Component Fetching](./client-fetching.md)
 4. Explore [Data Fetching Patterns](./patterns.md)
 
+## Detailed Guides
+
+- **[Server Component Fetching](./server-fetching.md)** - Fetching data in Server Components
+- **[Client Component Fetching](./client-fetching.md)** - Fetching data in Client Components
+- **[Server Actions](./server-actions.md)** - Server-side mutations and form handling
+- **[Fetch API](./fetch-api.md)** - Using the fetch API with caching and revalidation
+- **[Data Fetching Patterns](./patterns.md)** - Common patterns and best practices
+
+## Examples
+
+See the [examples](./examples/) folder for working code samples:
+
+- **[Server Fetching](./examples/01-server-fetching.tsx)** - Fetching data in Server Components
+- **[Client Fetching](./examples/02-client-fetching.tsx)** - Fetching data in Client Components
+- **[Server Actions](./examples/03-server-actions.tsx)** - Server-side mutations and forms
+- **[Fetch API](./examples/04-fetch-api.tsx)** - Different caching strategies
+- **[Patterns](./examples/05-patterns.tsx)** - Common data fetching patterns
+- **[Complete Example](./examples/06-complete-example.tsx)** - Comprehensive data fetching app
+
+See [examples/README.md](./examples/README.md) for detailed descriptions and usage instructions.
+
 ## Resources
 
 - [Data Fetching Docs](https://nextjs.org/docs/app/building-your-application/data-fetching)
